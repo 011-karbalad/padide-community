@@ -46,8 +46,8 @@ F12 → Console tab
 
 **اگر می‌بینید:**
 ```
-[v0] Featured Section - WC: 0 Loading: true
-[v0] Displaying: 8 products
+[padide] Featured Section - WC: 0 Loading: true
+[padide] Displaying: 8 products
 ```
 
 ✅ **این طبیعی است!** - WC API در دسترس نیست، fallback استفاده می‌شود.
@@ -78,7 +78,7 @@ curl -u "key:secret" https://hustlershop.ir/wp-json/wc/v3/products?per_page=1
 
 ### شاخص‌هایی که نشان می‌دهد WC متصل است:
 ```
-[v0] Featured Section - WC: 8 Loading: false Error: null
+[padide] Featured Section - WC: 8 Loading: false Error: null
 ```
 
 ---

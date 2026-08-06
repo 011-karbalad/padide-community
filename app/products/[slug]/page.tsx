@@ -37,7 +37,7 @@ export default function ProductPage({ params }: { params: Promise<{ slug: string
     setAddedToCart(true)
     setTimeout(() => setAddedToCart(false), 2500)
     // Cart integration will be added when store is connected
-    console.log(`[v0] Added ${quantity} of ${product.name} to cart`)
+    console.log(`[padide] Added ${quantity} of ${product.name} to cart`)
   }
 
   const mockReviews = [

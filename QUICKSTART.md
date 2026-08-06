@@ -25,7 +25,7 @@
 
 ### 1. Install & Run
 ```bash
-cd /vercel/share/v0-project
+cd padide-community
 
 # Install dependencies (if needed)
 pnpm install
@@ -175,7 +175,7 @@ Edit `components/home/hero.tsx`:
 ## 📦 Project Structure
 
 ```
-/vercel/share/v0-project/
+padide-community/
 ├── app/
 │   ├── globals.css           ← Design system
 │   ├── layout.tsx

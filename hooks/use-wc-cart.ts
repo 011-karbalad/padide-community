@@ -83,7 +83,7 @@ export function useWCCart() {
           throw new Error('خطا در ایجاد سفارش')
         }
 
-        console.log('[v0] Order created successfully:', order.id)
+        console.log('[padide] Order created successfully:', order.id)
         setLastOrderId(order.id)
 
         // Clear cart after successful order

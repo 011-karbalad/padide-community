@@ -20,9 +20,9 @@ export default function OrderConfirmationPage({ params }: { params: { orderId: s
       try {
         const result = await fetchWCOrder(parseInt(params.orderId))
         setOrder(result)
-        console.log('[v0] Order loaded:', result)
+        console.log('[padide] Order loaded:', result)
       } catch (error) {
-        console.error('[v0] Error loading order:', error)
+        console.error('[padide] Error loading order:', error)
       } finally {
         setLoading(false)
       }
